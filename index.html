@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html xmlns:og="http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Développeur Web Freelance - DevɅr</title>
+    <meta name="description" content="Besoin d'un nouveau site web ? Je suis un développeur web front-end basé entre Lyon, Vienne et Grenoble en Isère. Je réalise vos site internet pour votre entreprise sur demande et pour un prix abordable.">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:title" content="Accueil - DevɅr">
+    <meta property="og:description" content="Besoin d'un nouveau site web ? Je suis un développeur web front-end basé entre Lyon, Vienne et Grenoble en Isère. Je réalise vos site internet pour votre entreprise sur demande et pour un prix abordable.">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="https://lubinfongarland.dev">
+    <meta property="og:image" content="htpps://lubinfongarland.dev/assets/img/logo.jpg">
+    <meta property="og:site_name" content="Développeur Web Freelance - DevɅr">
+    <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "LocalBusiness",
+          "name" : "Lubin Fongarland",
+          "telephone" : "06 20 40 36 02",
+          "email" : "contact@lubinfongarland.dev",
+          "address" : {
+            "@type" : "PostalAddress",
+            "streetAddress" : "164 Rue du Stade",
+            "addressLocality" : "Bellegarde-Poussieu",
+            "addressRegion" : "Auvergne-Rhône-Alpes",
+            "addressCountry" : "France",
+            "postalCode" : "38270"
+          }
+        }
+    </script>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="bg--body"></div>
+
+    <!--Bouton de retour au haut de page-->
+    <a href="#" aria-hidden="true" title="Retourner en haut de la page"> 
+        <div class="page-up" id="bouton-page-up">
+            <i class="fas fa-arrow-up" id="fa-page-up"></i>
+        </div>
+    </a>
+
+    <!--Message d'annonce en bas de page
+    <div class="annonce">
+        <p>En développement | v1.3.0</p>
+    </div>-->
+
+
+    <!--Header-->
+    <header class="dark">
+        <div class="container--left">
+            <a href="#"><img src="assets/img/logo.png" alt="Logo Devar"></a> <!--Logo-->
+            <div class="container--left--text">
+                <h2><a href="#" aria-label="Devar" title="Devar" role="note">// DevɅr</a></h2>
+                <p>Développeur Web</p>
+            </div>
+        </div>
+
+        <div class="container--right">
+            <div class="menu--icon" id="nav-toggle" role="navigation" onclick="menuMobile()"> <!--Menu Mobile-->
+                <i class="fas fa-bars" aria-label="Menu de navigation"></i> 
+            </div>
+            <nav id="nav-menu"> <!--Navbar Menu-->
+                <ul> <!--Nav-->
+                    <li data-aos="fade-left" data-aos-delay="50"><a href="#about" class="nav-link" onclick="linkMenuMobile()">A propos</a></li>
+                    <li data-aos="fade-left" data-aos-delay="100"><a href="#services" class="nav-link" onclick="linkMenuMobile()">Services</a></li>
+                    <li data-aos="fade-left" data-aos-delay="150"><a href="#portfolio" class="nav-link" onclick="linkMenuMobile()">Portfolio</a></li>
+                    <li data-aos="fade-left" data-aos-delay="200"><a href="#contact" class="nav-link" onclick="linkMenuMobile()">Me contacter</a></li>
+                </ul>
+            </nav>
+            <div class="reseaux"> <!--Réseaux sociaux-->
+                <ul>
+                    <li data-aos="fade-left" data-aos-delay="250"><a href=""><i class="fab fa-github" role="link" aria-label="Lien vers mon Github" title="Github"></i></a></li>
+                    <li data-aos="fade-left" data-aos-delay="300"><a href=""><i class="fab fa-linkedin-in" role="link" aria-label="Lien vers mon Linkedin" title="Linkedin"></i></a></li>
+                    <li data-aos="fade-left" data-aos-delay="350"><a href=""><i class="far fa-envelope" role="link" aria-label="Envoyer un mail" title="Mail"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--Section Home - Herobanner-->
+    <main>
+        <section class="dark" id="home"> <!--Class .dark-->
+            <div class="container--central"> <!--Container central-->
+                <h2>Lubin Fongarland</h2> 
+                <h1>Développeur Web Freelance</h1> <!--Main-title-->
+                <p>Vous avez <span class="strong">besoin d'un site internet</span> pour votre entreprise ?</p>
+                <p>Je réalise vos sites web sur demande.</p>
+                <div class="buttons"> 
+                    <a href="#services" class="bouton" id="btn-services">Mes services</a>
+                    <a href="#contact" class="bouton" id="btn-contact">Me contacter</a>
+                </div>
+                <div class="chevron"> <!--Chevron Scroll Animé-->
+                    <a href="#about"><i class="fas fa-chevron-circle-down icon-orange" id="chevron-bottom" aria-hidden="true" role="link" title="Voir mon profil" ></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Section A propos-->
+    <section class="light" id="about"> <!--Class .light-->
+
+        <div class="title"> <!--Titres-->
+            <p class="sub-title" aria-hidden="true">// Qui suis-je ?</p> <!--Sous-titre-->
+            <h2>A propos de moi</h2>
+        </div>
+
+        <div class="container"> <!--Container-->
+            <img src="assets/img/photo_de_profil.jpg" alt="Portrait Lubin Fongarland, Développeur Web"> 
+            <div class="container--about">
+                <p>Avant tout passionné d'informatique et de développement web, j'ai décidé de devenir freelance en développement web en parrallèle de mes études.</p>
+                <p>Du <span class="strong">design de l'interface utilisateur</span> au <span class="strong">développement d'applications web</span>, en passant par l'<span class="strong">optimisation du référencement naturel</span>, je propose diverses solutions aux entreprises souhaitant créer ou refaire leur site internet.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Section Services-->
+    <section class="dark" id="services"> <!--Class .dark-->
+
+        <p class="sub-title" aria-hidden="true">// Sous demande</p>
+        <h2>Mes services</h2>
+
+        <div class="container--services"> <!--Container Services Cards-->
+
+            <div class="card light" id="item-1"> <!--Card 1-->
+                <div class="l-1">
+                    <img src="assets/img/Coding_SVG.svg" alt="Développement">
+                    <h3>Site vitrine</h3>
+                    <p class="tarif" aria-label="à partir de 159€* hors taxes" role="note">A partir de 159€* HT</p>
+                </div>
+                <div class="l-2">
+                    <p class="forfait">Forfait de base :</p>
+                    <ul>
+                        <li>Design de l'interface</li>
+                        <li>Développement du site</li>
+                        <li>Page d'accueil + 1 page</li>
+                        <li>Maintenance offerte</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card light" id="item-2"> <!--Card 2-->
+                <div class="l-1">
+                    <img src="assets/img/Web_design_SVG.svg" alt="Web design">
+                    <h3>Refonte de site web</h3>
+                    <p class="tarif" aria-label="à partir de 159€* hors taxes">A partir de 159€* HT</p>
+                </div>
+                <div class="l-2">
+                    <p class="forfait">Forfait de base :</p>
+                    <ul>
+                        <li>Refonte de l'interface</li>
+                        <li>Légères modifications du code</li>
+                        <li>Optimisation du SEO</li>
+                        <li>Maintenance offerte</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card light" id="item-3"> <!--Card 3-->
+                <div class="bg--prochainement"></div>
+                <div class="l-1">
+                    <img src="assets/img/SEO_SVG.svg" alt="Optimisation SEO">
+                    <h3>Référencement/SEO</h3>
+                    <p class="tarif" aria-label="à partir de 29€* hors taxes">A partir de 29€* HT</p>
+                </div>
+                <div class="l-2">
+                    <p class="forfait">Forfait de base :</p>
+                    <ul>
+                        <li>Optimisation du temps de chargement</li>
+                        <li>Ajout de méta données</li>
+                        <li>Optimisation des paramètres d'accessibilité</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <p class="info">*TVA non applicable.</p> <!--Paragraphe d'information-->
+        <a href="#contact" class="bouton">Obtenir un devis</a> 
+
+    </section>
+
+    <!--Section Portfolio-->
+    <section class="light" id="portfolio"> <!--Class .orange-->
+
+        <p class="sub-title" aria-hidden="true">// Portfolio</p>
+        <h2>Mes réalisations</h2>
+
+        <div class="container--portfolio"> <!--Container grid--> 
+            <div class="cardbox" id="cardbox1">
+                <a href="#portfolio">
+                    <div class="card" id="item-1">
+                        <div class="bg--light"></div>
+                        <div class="description">
+                            <div class="title">
+                                <div class="tags">
+                                    <span class="sv-tag" aria-hidden="true">Site vitrine</span>
+                                </div>
+                                <p class="name">Portfolio Devar</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#portfolio">
+                    <div class="card" id="item-2">
+                        <div class="bg--light"></div>
+                        <div class="description">
+                            <div class="title">
+                                <div class="tags">
+                                    <span class="sv-tag" aria-hidden="true">Site vitrine</span>
+                                </div>
+                                <p class="name">Association Rim'Ailleurs</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#portfolio">
+                    <div class="card" id="item-3">
+                        <div class="bg--light"></div>
+                        <div class="description">
+                            <div class="title">
+                                <div class="tags">
+                                    <span class="sv-tag" aria-hidden="true">Site vitrine</span>
+                                </div>
+                                <p class="name">Cheminées Boisaubert</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div> 
+
+    </section>
+
+    <!--Section Contact-->
+    <section class="dark" id="contact"> <!--Class .black-->
+
+        <p class="sub-title" aria-hidden="true">// Contact</p>
+        <h2>Me contacter</h2>
+        
+        <div class="container">
+            <div class="container--form">
+                <p>Vous souhaitez obtenir un devis, ou tout simplement me poser une question ? Contactez-moi via ce formulaire ou via les moyens de contact ci-joints.</p>
+                <form action="https://formspree.io/f/mpzblzwy" method="post" id="form">
+                    <div class="container--user--infos">
+                        <label for="name">
+                            Nom et prénom :<input type="text" name="user_name" id="name" title="Renseignez votre nom et prénom">
+                        </label>
+                        <label for="mail">
+                            Email :<input type="email" name="user_mail" id="mail" title="Renseignez votre email">
+                        </label>
+                    </div>
+                    <select name="object_message" id="object" aria-label="Selectionnez une option" title="Selectionnez une option">
+                        <option value="devis">Je souhaite obtenir un devis</option>
+                        <option value="question">Je souhaite obtenir des renseignements</option>
+                    </select>
+                    <div class="container--message">
+                        <label for="msg">
+                            Message :<textarea name="user_message" id="msg" cols="" rows="10" title="Ecrivez votre message"></textarea>
+                        </label>
+                        <button type="submit" aria-label="Envoyer le formulaire" title="Envoyer le formulaire" id="form-submit"><i class="fa-solid fa-paper-plane" id="svg-send" role="button"></i></button>
+                    </div>
+                    <div id="status" role="alert" data-aos="fade-right" aria-hidden="true"></div>
+                </form>
+            </div>
+            <div class="container--infos">
+                <ul>
+                    <li>
+                        <p class="info_name">Email</p>
+                        <span><a href="mailto:contact@lubinfongarland.dev">contact@DevɅr.dev</a></span>
+                    </li>
+                    <li>
+                        <p class="info_name">Telephone</p>
+                        <span><a href="tel:0600000000">06 00 00 00 00</a></span>
+                    </li>
+                    <li>
+                        <p class="info_name">Adresse</p>
+                        <span>164 Rue du Stade</span>
+                        <span>38270 Bellegarde-Poussieu</span>
+                        <span>France</span>
+                    </li>
+                </ul>
+                <div class="reseaux">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="dark">
+        <div class="container--links">
+            <div class="container--description">
+                <div class="top_description">
+                    <img src="assets/img/logo.png" alt="Logo Devar">
+                    <h3 aria-label="Devar" role="note">// DevɅr</h3>
+                </div>
+                <p class="description"><span class="strong">Développeur web front-end</span> basé entre Lyon, Vienne et Grenoble en Isère (38). 
+                Je réalise vos sites internet pour votre <span class="strong">entreprise</span> sur demande et pour un <span class="strong">prix abordable.</span></p>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><p class="footer_title">Informations de contact</p></li>
+                    <li>Téléphone : <a href="tel:0600000000">06 00 00 00 00</a></li>
+                    <li>Email : <a href="mailto:contact@lubinfongarland.dev">contact@DevɅr.dev</a></li>
+                    <li>Github : <a href="">DevɅr</a></li>
+                    <li>Linkedin : <a href="">DevɅr</a></li>
+                </ul>
+                <ul>
+                    <li><p class="footer_title">Plan du site</p></li>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets/pages/mentions-légales.html">Mentions légales</a></li>
+                    <li><a href="assets/pages/CGV.html" aria-label="Conditions Générales de Vente">CGV</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container--bandeau" aria-hidden="true">
+            <p>Société DevɅr - Siret: En cours d'attribution</p>
+            <p>DevɅr Copyright 2022-2023 - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <!--Script-->
+    <!--Script Font Awesome-->
+    <script src="https://kit.fontawesome.com/33ad9a8292.js" crossorigin="anonymous"></script>
+    <!--Script Main Files-->
+    <script src="assets/js/main.js"></script>
+    <!--Script AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> 
+        AOS.init();
+    </script> <!--Initialisation AOS-->
+
+</body>
+</html>
