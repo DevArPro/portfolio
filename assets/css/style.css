@@ -1105,10 +1105,11 @@ header.sticky .container--right nav.responsive ul li {
 @media screen and (max-width: 495px) {
   #services .container--services .card {
     height: 350px;
+    width: 220px;
     display: block;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   #services .container--services .card .l-1 {
     display: flex;
@@ -1371,10 +1372,10 @@ header.sticky .container--right nav.responsive ul li {
   #portfolio .container--portfolio .card#item-1,
   #portfolio .container--portfolio .card#item-2 {
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   #portfolio .container--portfolio .card {
-    height: 170px;
+    height: 250px;
     width: 800px;
   }
   #portfolio .container--portfolio .card .title {
@@ -1399,7 +1400,6 @@ header.sticky .container--right nav.responsive ul li {
     padding: 7vh 5vw;
   }
   #portfolio .container--portfolio .card {
-    height: 170px;
     width: 700px;
   }
   #portfolio .container--portfolio .card .title {
@@ -1444,17 +1444,27 @@ header.sticky .container--right nav.responsive ul li {
   #portfolio .container--portfolio .card {
     width: 100%;
   }
+  #portfolio .container--portfolio .card#item-2,
+  #portfolio .container--portfolio .card#item-3 {
+    background-position: left;
+  }
   #portfolio .tags span.sv-tag {
     display: none;
   }
   #portfolio .container--portfolio .card .description {
     padding: 0px;
   }
+  #portfolio p.name {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 366px) {
   #portfolio h2 {
     font-size: 2em;
+  }
+  #portfolio .container--portfolio .card {
+    height: 300px;
   }
 }
 @media screen and (max-width: 328px) {
@@ -1696,9 +1706,11 @@ header.sticky .container--right nav.responsive ul li {
   #contact .container--form {
     margin-right: 50px;
   }
-  #contact .container--infos ul li span,
+  #contact .container--infos ul li span {
+    font-size: 0.9em;
+  }
   #contact .container--infos ul li span a {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 1063px) {
@@ -1752,17 +1764,14 @@ header.sticky .container--right nav.responsive ul li {
   #contact .container--form .container--message textarea {
     width: 200%;
   }
-  #contact .container--form .container--message button {
-    height: 30px;
-    width: 30px;
+  #contact .container--infos ul li span {
+    font-size: 0.7em;
+  }
+  #contact .container--infos ul li span a {
     font-size: 1em;
   }
 }
 @media screen and (max-width: 736px) {
-  #contact .container--infos ul li span,
-  #contact .container--infos ul li span a {
-    font-size: 0.7em;
-  }
   #contact .container--infos ul li p.info_name {
     font-size: 0.9em;
   }
@@ -1776,18 +1785,20 @@ header.sticky .container--right nav.responsive ul li {
   }
 }
 @media screen and (max-width: 674px) {
-  #contact .container--infos ul li span,
-  #contact .container--infos ul li span a {
-    font-size: 0.6em;
-  }
   #contact .container--infos ul li p.info_name {
     font-size: 0.8em;
+  }
+  #contact .container--form .container--message textarea {
+    width: 180%;
   }
 }
 @media screen and (max-width: 643px) {
   #contact .container--form .container--message textarea,
-  #contact .container--form input {
+  #contact .container--form .container--message input {
     width: 80%;
+  }
+  #contact .container--form .container--message textarea {
+    height: 270px;
   }
   #contact .container--form .container--user--infos {
     display: block;
@@ -1798,7 +1809,7 @@ header.sticky .container--right nav.responsive ul li {
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 20px;
   }
   #contact .container--form select {
@@ -1829,9 +1840,11 @@ header.sticky .container--right nav.responsive ul li {
   #contact .container--infos .reseaux {
     display: none;
   }
-  #contact .container--infos ul li span,
+  #contact .container--infos ul li span {
+    font-size: 0.9em;
+  }
   #contact .container--infos ul li span a {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   #contact .container--infos ul li p.info_name {
     font-size: 0.9em;
@@ -1864,9 +1877,11 @@ header.sticky .container--right nav.responsive ul li {
   #contact h2 {
     font-size: 2em;
   }
-  #contact .container--infos ul li span,
+  #contact .container--infos ul li span {
+    font-size: 0.8em;
+  }
   #contact .container--infos ul li span a {
-    font-size: 0.7em;
+    font-size: 1em;
   }
   #contact .container--infos ul li p.info_name {
     font-size: 0.8em;
@@ -2029,7 +2044,7 @@ footer .container--bandeau p:nth-child(2) {
 }
 @media screen and (max-width: 690px) {
   footer {
-    padding: 80px;
+    padding: 80px 50px 50px 50px;
   }
   footer .container--description {
     display: none;
@@ -2051,15 +2066,17 @@ footer .container--bandeau p:nth-child(2) {
   footer .container--bandeau {
     display: none;
   }
-}
-@media screen and (max-width: 690px) {
-  footer {
-    padding: 80px 50px 50px 50px;
+  footer p, footer li {
+    font-size: 0.9em;
+  }
+  footer h3 {
+    font-size: 1em;
   }
 }
-@media screen and (max-width: 447px) {
+
+@media screen and (max-width: 525px) {
   footer {
-    height: 310px;
+    height: 350px;
     padding: 30px 40px;
     display: block;
   }
@@ -2076,7 +2093,7 @@ footer .container--bandeau p:nth-child(2) {
     margin-right: 10px;
   }
   footer .container--links .container--description .top_description h3 {
-    font-size: 0.8em;
+    font-size: 1.1em;
   }
   footer .container--links .links {
     display: block;
@@ -2087,6 +2104,21 @@ footer .container--bandeau p:nth-child(2) {
   }
   footer .container--links .links ul li p.footer_title {
     margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 395px) {
+  footer {
+    height: 370px;
+  }
+}
+@media screen and (max-width: 342px) {
+  footer {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 294px) {
+  footer {
+    height: 430px;
   }
 }
 
