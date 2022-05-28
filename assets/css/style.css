@@ -2146,3 +2146,28 @@ footer .container--bandeau p:nth-child(2) {
 #mentions-légales p, #mentions-légales ul {
   margin-bottom: 20px;
 }
+@media screen and (max-width: 650px) {
+  #mentions-légales {
+    padding: 50px 50px 50px 30px;
+  }
+  #mentions-légales h1 {
+    font-size: 2.3em;
+  }
+  #mentions-légales h2 {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 391px) {
+  #mentions-légales h1 {
+    font-size: 2em;
+  }
+  #mentions-légales h2 {
+    font-size: 1.4em;
+  }
+  #mentions-légales h3 {
+    font-size: 1.2em;
+  }
+  #mentions-légales p, #mentions-légales li {
+    font-size: 1em;
+  }
+}
