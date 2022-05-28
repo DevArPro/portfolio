@@ -8,7 +8,7 @@ Accéder au site : https://devarpro.github.io/DevAr/index.html.
 
 ### Version du projet
 
-Version : 2.3.0
+Version : 2.3.2
 
 ### Description du projet 
 
