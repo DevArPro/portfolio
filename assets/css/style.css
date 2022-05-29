@@ -23,13 +23,11 @@ body {
   height: 100vh;
   background-color: black;
   background-image: url('../img/responsable-informatique-agence-traduction.jpg');
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
   overflow-x: hidden;
-  -webkit-background-size: cover;
 }
 .bg--body {
   width: 100%;
