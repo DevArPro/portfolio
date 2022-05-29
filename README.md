@@ -8,7 +8,9 @@ Accéder au site : https://devarpro.github.io/DevAr/index.html.
 
 ### Version du projet
 
-Version : 2.3.2
+**Version :** 2.4.1
+
+**Dernière mise à jour :** *Correction de nombreux bugs d'incompatibilité et d'accessibilité sur Safari et les appareils iOS.*
 
 ### Description du projet 
 
@@ -16,7 +18,7 @@ Ce site web statique, constitué de 3 pages, est mon portfolio pour mes activit�
 
 ### Technologies utilisées
 
-Pour la réalisation de ce portfolio, j'ai utilisé les technologies suivantes :
+Pour la réalisation de ce portfolio, j'ai opté pour les technologies suivantes :
 - Html 5
 - Css 3
 - Javascript
