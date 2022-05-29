@@ -29,6 +29,7 @@ body {
   background-position: center;
   color: white;
   overflow-x: hidden;
+  -webkit-background-size: cover;
 }
 .bg--body {
   width: 100%;
