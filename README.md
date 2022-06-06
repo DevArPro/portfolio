@@ -16,6 +16,10 @@ Accéder au site : https://devarpro.github.io/DevAr/index.html.
 
 Ce site web statique, constitué de 3 pages, est mon portfolio pour mes activités de freelance. Vous pouvez accéder à ma présentation personnelle, mes réalisations, mes services ainsi qu'à un formulaire et mes moyens de contact en quelques clics. 
 
+**Aperçu du projet :**
+
+![presentation](https://user-images.githubusercontent.com/105812278/172123079-045cecdf-162a-49fa-a47c-2ec04856f927.png)
+
 ### Technologies utilisées
 
 Pour la réalisation de ce portfolio, j'ai opté pour les technologies suivantes :
