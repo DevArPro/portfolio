@@ -10,7 +10,7 @@
     "background_color": "#161616",
     "icons": [
         {
-            "src": "/assets/img/logo.png",
+            "src": "/portfolio/assets/img/logo.png",
             "sizes": "500x500"
         }            
     ]
