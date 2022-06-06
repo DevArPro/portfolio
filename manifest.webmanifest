@@ -1,17 +1,16 @@
 {
-  "short_name": "Portfolio DevAr",
-  "name": "Portfolio Devar 2023",
-  "theme_color": "#d3640a",
-  "background_color": "rgb(22, 22, 22)",
-  "display": "standalone",
-  "Scope": "/",
-  "orientation": "portrait",
-  "icons": [
-    {
-      "src": "assets/img/logo.png",
-      "type": "image/png",
-      "sizes": "500x500"
-    },
-  ],
-  "start_url": "index.html?utm_source=homescreen"
+    "name": "Portfolio DevAr 2023",
+    "lang": "fr",
+    "short_name": "DevAr Portfolio",
+    "description": "Portfolio de la société DevAr - Développeur web freelance",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#d3640a",
+    "background_color": "#161616",
+    "icons": [
+        {
+            "src": "/assets/img/logo.png",
+            "sizes": "500x00"
+    ]
 }
