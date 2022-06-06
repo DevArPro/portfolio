@@ -3,15 +3,15 @@
     "lang": "fr",
     "short_name": "DevAr Portfolio",
     "description": "Portfolio de la société DevAr - Développeur web freelance",
-    "start_url": "/DevAr/index.html",
-    "scope": "/DevAr/",
+    "start_url": "/portfolio/index.html",
+    "scope": "/portfolio/",
     "display": "standalone",
     "theme_color": "#d3640a",
     "background_color": "#161616",
     "icons": [
         {
             "src": "/assets/img/logo.png",
-            "sizes": "500x00"
+            "sizes": "500x500"
         }            
     ]
 }
