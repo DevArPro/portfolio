@@ -8,9 +8,9 @@ Accéder au site : https://devarpro.github.io/DevAr/index.html.
 
 ### Version du projet
 
-**Version :** 2.4.1
+**Version :** 2.4.2
 
-**Dernière mise à jour :** *Correction de nombreux bugs d'incompatibilité et d'accessibilité sur Safari et les appareils iOS.*
+**Dernière mise à jour :** *Inplentation de la technologie PWA (Progressive Web App) permettant un affichage hors connexion et la possibilité d'installation du site en tant qu'application sur mobile.*
 
 ### Description du projet 
 
