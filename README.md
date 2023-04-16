@@ -1,8 +1,10 @@
 # Site vitrine | DevɅr - Développeur web freelance
 
+**Information : Un nouveau portfolio est en train de voir le jour ! Accéder au site : https://devarpro.github.io/new_portfolio**
+
 👋 Besoin d'un nouveau site web ? Je suis un développeur web front-end basé entre Lyon, Vienne et Grenoble en Isère. Je réalise vos sites internet pour votre entreprise sur demande et pour un prix abordable.
 
-Accéder au site : https://devarpro.github.io/DevAr/index.html.
+Accéder au site : https://devarpro.github.io/portfolio.
 
 ## Présentation du projet
 
@@ -14,7 +16,7 @@ Accéder au site : https://devarpro.github.io/DevAr/index.html.
 
 ### Description du projet 
 
-Ce site web statique, constitué de 3 pages, est mon portfolio pour mes activités de freelance. Vous pouvez accéder à ma présentation personnelle, mes réalisations, mes services ainsi qu'à un formulaire et mes moyens de contact en quelques clics. 
+Ce site web statique, constitué de 2 pages, est mon portfolio pour mes activités de freelance. Vous pouvez accéder à ma présentation personnelle, mes réalisations, mes services ainsi qu'à un formulaire et mes moyens de contact en quelques clics. 
 
 **Aperçu du projet :**
 
@@ -27,8 +29,9 @@ Pour la réalisation de ce portfolio, j'ai opté pour les technologies suivantes
 - Css 3
 - Javascript
 - Formspree (back-end du formulaire de contact)
+- Aos, Fontawesome et autres libraires JS
 
 ## Licence 
 
-Cette oeuvre est sous licence CreativeCommons : https://devarpro.github.io/DevAr/assets/pages/mentions-légales.html pour plus d'informations.
+Cette oeuvre est sous licence CreativeCommons : https://devarpro.github.io/portfolio/assets/pages/mentions-légales.html pour plus d'informations.
 
