@@ -4,6 +4,8 @@
 
 **Information : Un nouveau portfolio est en train de voir le jour ! Accéder au site : https://devarpro.github.io/new_portfolio**
 
+⚠️ **Important : Les prix des prestations indiqués et les coordonnées renseignées (Numéros de téléphone, adresses mail, ...) sont factices/utilisés à titre d'exemple uniquement**
+
 -----
 
 👋 Besoin d'un nouveau site web ? Je suis un développeur web front-end basé entre Lyon, Vienne et Grenoble en Isère. Je réalise vos sites internet pour votre entreprise sur demande et pour un prix abordable.
