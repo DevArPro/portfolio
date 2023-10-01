@@ -8,8 +8,6 @@
 
 -----
 
-👋 Besoin d'un nouveau site web ? Je suis un développeur web front-end basé entre Lyon, Vienne et Grenoble en Isère. Je réalise vos sites internet pour votre entreprise sur demande et pour un prix abordable.
-
 Accéder au site : https://devarpro.github.io/portfolio.
 
 ## Présentation du projet
